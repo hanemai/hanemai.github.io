@@ -32,3 +32,10 @@ body {
 .nav li a:hover {
     background-color: aliceblue;
 }
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
