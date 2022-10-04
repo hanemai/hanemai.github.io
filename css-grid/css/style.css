@@ -1,0 +1,176 @@
+body {
+    background-color: gainsboro;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: large;
+}
+
+.nav li a:hover {
+    background-color: rgb(247, 236, 226);
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto 25%;
+}
+
+.grid-item {
+    background-color: lightblue;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.grid-item2 {
+    background-color: red;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.grid-item3 {
+    background-color: maroon;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.navmenu {
+    grid-column: 1/span 3;
+    grid-row: 1;
+}
+
+.main-image {
+    grid-column: 1/span 3;
+    grid-row: 2;
+}
+
+.main-image {
+    grid-column: 1/span 3;
+    grid-row: 2;
+}
+
+.main1 {
+    grid-column: 1/span 2;
+    grid-row: 3;
+}
+
+.support1 {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.support2 {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.main2 {
+    grid-column: 1/span 2;
+    grid-row: 5;
+}
+
+.sidenav {
+    grid-column: 3;
+    grid-row: 3/span 2;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+}
+
+.grid-item-2 {
+    background-color: gainsboro;
+    text-align: left;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.grid-item2-2 {
+    background-color: gainsboro;
+    text-align: left;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.grid-item3-2 {
+    background-color: grey;
+    text-align: left;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.navmenu-2 {
+    grid-column: 1/span 3;
+    grid-row: 1;
+}
+
+.main-image-2 {
+    grid-column: 1/span 3;
+    grid-row: 2;
+}
+
+.main-image-2 {
+    grid-column: 1/span 3;
+    grid-row: 2;
+}
+
+.main1-2 {
+    grid-column: 1/span 2;
+    grid-row: 3;
+}
+
+.support1-2 {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.support2-2 {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.main2-2 {
+    grid-column: 1/span 2;
+    grid-row: 5;
+}
+
+.sidenav-2 {
+    grid-column: 3;
+    grid-row: 3/span 2;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+}
