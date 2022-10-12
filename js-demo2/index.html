@@ -56,6 +56,35 @@
         Drink me</button>
     <!--add another button to return Alice to original font size and color, using a function-->
     <button onclick="normalAlice();">Return to normal</button>
+
+    <hr>
+    <h2>How do we return user input data?</h2>
+    <button onclick="askName();">What's your name?</button>
+    <p id="ask-name"></p>
+
+    <script>
+        function normalAlice() {
+            let aliceParagraph = document.getElementById('alice');
+            aliceParagraph.style.color = 'black';
+            aliceParagraph.style.fontSize = '20px';
+        }
+
+        function askName() {
+            let nameParagraph = document.getElementById('ask-name');
+            let name = prompt("What is your name?");
+            // decide what to do
+            if (name === "batman") {
+                nameParagraph.innerHTML = "Welcome to the batcave sir";
+            } else {
+                nameParagraph.innerHTML = "Hello " + name + "! Nice to meet you.";
+            }
+
+            function blueBack() {
+                let blueB = document.getElementById('blue');
+                blueB.body.style.backgroundColor = 'blue';
+            }
+        }
+    </script>
 </body>
 
 </html>
