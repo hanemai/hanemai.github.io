@@ -85,6 +85,22 @@
             }
         }
     </script>
+
+    <hr>
+    <h2>How do I show a pop up for an embeded link with a button? (Extra 1)</h2>
+    <p id="man"><iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2688.1006622395553!2d-122.20118688412653!3d47.643610679187155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906cc534674737%3A0xf92154cd626a9efb!2sEastside%20Preparatory%20School!5e0!3m2!1sen!2sus!4v1663264757304!5m2!1sen!2sus"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+    <button><a
+            href="https://www.google.com/maps?ll=47.643611,-122.198998&z=16&t=m&hl=en&gl=US&mapclient=embed&cid=17951722830771691259"
+            target="_blank" onclick="alert('Warning! you are navigating away from my page!')">Open in new
+            page!</a></button>
+
+    <hr>
+    <h2>How do I change background color? (Extra 2)</h2>
+    <p id="blue"></p>
+    <button onclick="document.getElementById('blue').body.style.backgroundColor='blue'">Blue!</button>
 </body>
 
 </html>
