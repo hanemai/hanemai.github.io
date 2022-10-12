@@ -43,6 +43,19 @@
     <!--student challenge: toggle back to original image-->
     <button onclick="document.getElementById('my-image').src='images/Screenshot 2022-10-05 102448.png'">Revert
         cat!</button>
+
+    <hr>
+    <h2>How do I change css styles with a button?</h2>
+    <p id="alice">Hi. I am Alice.</p>
+    <button
+        onclick="document.getElementById('alice').style.color='blue'; document.getElementById('alice').style.fontSize='5px'">Cake:
+        Eat me</button>
+    <!--change to red and increase font size to 40px-->
+    <button
+        onclick="document.getElementById('alice').style.color='red'; document.getElementById('alice').style.fontSize='40px'">Potion:
+        Drink me</button>
+    <!--add another button to return Alice to original font size and color, using a function-->
+    <button onclick="normalAlice();">Return to normal</button>
 </body>
 
 </html>
