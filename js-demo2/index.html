@@ -33,6 +33,16 @@
     <button
         onclick="document.getElementById('which').innerHTML='First one!'; document.getElementById('which').style.display='block'">Reveal!</button>
     <button onclick="document.getElementById('which').style.display='none'">Hide!</button>
+
+    <hr>
+    <h2>How do we change images with javascript?</h2>
+    <img src="images/Screenshot 2022-10-05 102448.png" alt="original cat" id="my-image">
+    <button
+        onclick="document.getElementById('my-image').src='images/blowp.png'; document.getElementById('my-image').style.display='block'">Distort
+        cat!</button>
+    <!--student challenge: toggle back to original image-->
+    <button onclick="document.getElementById('my-image').src='images/Screenshot 2022-10-05 102448.png'">Revert
+        cat!</button>
 </body>
 
 </html>
