@@ -72,3 +72,21 @@ td {
     padding: 10px;
     background-color: rgb(192, 162, 171);
 }
+
+.Moon {
+    font-family: moonblossom, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Fair {
+    font-family: fairplex-narrow, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Rythem {
+    font-family: rhythm-one, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
