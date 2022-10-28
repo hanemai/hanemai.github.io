@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Demo</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="bg-dark">
+
+    <nav class="navbar navbar-expand-sm bg-primary nav-dark">
+        <!--add a logo using navbar-brand-->
+        <div class="contianer-fluid">
+            <ul class="navbar-nav">
+                <a class="nav-brand" href="#">
+                    <img src="images/eevee.png" style="width:45px">
+                </a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <!--add nav links for 'about me' and 'contact'-->
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="alert alert-success">
+        <strong>Congrats!</strong> Yay, you made it!
+    </div>
+
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/IMG_2421.jpg" alt="barking" class="d-block w-100">
+                <div class="carousel-caption">
+                    <h2>Barking</h2>
+                    <p>Tofu barking at Duoduo. </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/054C8BE2-9B57-4085-B2A5-418C195528FA.jpg" alt="playing games" class="d-block w-100">
+                <div class="carousel-caption">
+                    <h2>Games!</h2>
+                    <p>Tofu resting her paw on and seemingly playing my friend's game. </p>
+                </div>
+            </div>
+            <!--add new york slide-->-->
+            <div class="carousel-item">
+                <img src="images/5A9C91F9-EC62-4BBE-A07D-F1DA84BF0636.jpg" alt="tired" class="d-block w-100">
+                <div class="carousel-caption">
+                    <h2>Tired</h2>
+                    <p>Tofu resting on the floor of a room, very tired & almost sleeping. </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <div class="container p-5 m-5 mx-auto text-white border">
+        <h1>My first bootstrap page</h1>
+        <p>This part is inside a container class</p>
+        <p>It takes up the entire width of the screen</p>
+    </div>
+    </div>
+
+
+
+    <!--student challenge: create another container with different padding, colors, margin-->
+    <div class="container p-3 m-3 mx-auto text-danger border">
+        <p>This</p>
+    </div>
+
+    <!--bootstrap grid-->
+    <!--student challenge: change the grid to 5 columns: spanning 4, 4, 2, 1, 1,-->
+    <div class="row text-white">
+        <div class="col-md-4">
+            <h2>Bootstrap is for HTML</h2>
+            <p>HTML is fun</p>
+            <a class="btn btn-primary" href="#">More on HTMl</a>
+        </div>
+        <div class="col-md-4">
+            <h2>Bootstrap is for CSS</h2>
+            <p>To make things look pretty</p>
+            <a class="btn btn-success" href="#">More on CSS</a>
+        </div>
+        <div class="col-md-2">
+            <h2>Bootstrp is for JS</h2>
+            <p>To do cool things like slide shows.</p>
+            <a class="btn btn-info" href="#">More on JS</a>
+        </div>
+        <div class="col-md-1">
+            <h2>i miss my dog</h2>
+            <p>aewfkwelfwefewfawef</p>
+            <a class="btn btn-info" href="#">More on JS</a>
+        </div>
+        <div class="col-md-1">
+            <h2>when is lunch</h2>
+            <p>todays lunch is chicken burrito</p>
+            <a class="btn btn-info" href="#">More on JS</a>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
