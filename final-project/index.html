@@ -17,46 +17,64 @@
 </head>
 
 <style>
-
 </style>
 
 <body>
     <br>
     <div class="grid-container">
-        <img class="grid-item logo" style="width: 400px;" src="images/NWABR_transparent_web.png" alt="eps logo">
+        <img class="grid-item logo" style="width: 400px;" src="images/NWABR_transparent_web.png" alt="logo">
 
+        <!-- personal navigation bar -->
         <div class="container2 grid-item">
-            <ul class="nav navmenu">
-                <li><a href="index.html">DONATE</a></li>
-                <li style="font-size:24px">|</li>
-                <li><a href="index.html">VOLUNTEER</a></li>
-                <li style="font-size:24px">|</li>
-                <li><a href="evpro.html">BLOG</a></li>
-                <li style="font-size:24px">|</li>
-                <li><a href="index.html">CONTACT</a></li>
+            <ul class="nav2">
+                <li><a
+                        href="https://donatenow.networkforgood.org/nwabr?code=Speak%20Up%20For%20Research&reset=1">DONATE</a>
+                </li>
+                <li style="font-size:20px">|</li>
+                <li><a href="https://www.nwabr.org/volunteer">VOLUNTEER</a></li>
+                <li style="font-size:20px">|</li>
+                <li><a href="https://nwabr.wordpress.com/">BLOG</a></li>
+                <li style="font-size:20px">|</li>
+                <li><a href="https://www.nwabr.org/contact">CONTACT</a></li>
+
             </ul>
         </div>
 
+        <!-- SEARCH BUTTON -->
+        <div class="search-button">
+            <!-- Load icon library -->
+            <link rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <!-- The form -->
+            <form class="example" action="action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+
+        <!-- navigation bar -->
         <div class="container grid-item">
-            <ul class="nav navmenu">
+            <ul class="nav" style="margin-left: 5%;">
                 <li><a class="current" href="index.html">WELCOME</a></li>
-                <li style="font-size:30px; color:green">|</li>
-                <li><a href="index.html">ABOUT</a></li>
-                <li style="font-size:30px; color:green">|</li>
-                <li><a href=" index.html">MEMBER CENTER</a></li>
-                <li style="font-size:30px; color:green">|</li>
-                <li><a href=" evpro.html">EVENTS & PROGRAMS</a></li>
-                <li style="font-size:30px; color:green">|</li>
-                <li><a href=" index.html">TEACHER CENTER</a></li>
-                <li style="font-size:30px; color:green">|</li>
-                <li><a href=" index.html">RESOURCES</a></li>
-
+                <li style="font-size:29px; color:green">|</li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li style="font-size:29px; color:green">|</li>
+                <li><a href="memcenter.html">MEMBER CENTER</a></li>
+                <li style="font-size:29px; color:green">|</li>
+                <li><a href="evpro.html">EVENTS & PROGRAMS</a></li>
+                <li style="font-size:29px; color:green">|</li>
+                <li><a href="techcenter.html">TEACHER CENTER</a></li>
+                <li style="font-size:29px; color:green">|</li>
+                <li><a href="recources.html">RESOURCES</a></li>
             </ul>
         </div>
 
-        <div class="grid-item caro-grid">
+
+        <!--carousel-->
+        <div class="grid-item header-photo">
             <div id="demo" class="carousel slide" data-bs-ride="carousel">
-                <!-- Indicators/dots -->
+                <!-- indicators/dots -->
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
                     <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
@@ -64,7 +82,7 @@
                     <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
                     <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
                 </div>
-
+                <!-- photos -->
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="images/welcome/slideshow/slideshow_img_1.jpg" alt="one- leader" class="d-block w-100">
@@ -97,108 +115,127 @@
             </div>
         </div>
 
-        <div class="grid-item outline3">
-            <h3 class="color">#ThanksResearch</h3>
+        <!-- content -->
+        <div class="grid-item events">
+            <h3 class="color" style="font-size:300%">About</h3>
             <hr>
-            <p>Donations to NWABR help us to promote the public's trust in ethically conducted biomedical research.
-                Specifically donations support:</p>
-            <ul>
-                <li>Confrences</li>
-                <li>K12 science outreach</li>
-                <li>Communications trainings</li>
-                <li>Public engagement opportunities</li>
-            </ul>
 
-            <div class="container3 grid-item">
-                <ul class="nav navmenu">
-                    <li><a href="index.html">DONATE</a></li>
-                </ul>
+            <p>At NWABR we envision a future time where the public recognizes and values the contribution of ethically
+                conducted biomedical research and where this research leads to significant improvement in the
+                communities’ health.</p>
+
+            <p>NWABR works to achieve this Vision though the promotion of the public's trust in biomedical research, and
+                its ethical conduct.</p>
+        </div>
+
+        <!-- new articles -->
+        <div class="grid-item woah1" style="padding-top: 6%">
+            <h4 class="item">IBC, Security and IACUC Conferences: Building Bridges</h4>
+            <p>February 22, 23 & 24, 2022 Building Bridges, Register Today</p>
+            <img class="grid-item confrence-photos" src="images/welcome/Building Bridges - 2022 IBCIACUCSecurity.jpg"
+                alt="seattle">
+            <br>
+            <div>
+                <button class="LMbutton"
+                    onclick="location.href='https://www.nwabr.org/events-programs/2022-ibc-security-and-iacuc-conferences';">LEARN
+                    MORE</button>
             </div>
         </div>
 
-        <br>
-
-        <div class="grid-item outline2">
-            <h3 class="color">#ThanksResearch</h3>
-            <hr>
-            <p>Donations to NWABR help us to promote the public's trust in ethically conducted biomedical research.
-                Specifically donations support:</p>
-            <ul>
-                <li>Confrences</li>
-                <li>K12 science outreach</li>
-                <li>Communications trainings</li>
-                <li>Public engagement opportunities</li>
-            </ul>
-
-            <div class="container3 grid-item">
-                <ul class="nav navmenu">
-                    <li><a href="index.html">DONATE</a></li>
-                </ul>
+        <div class="grid-item woah2" style="padding-top: 6%">
+            <h4 class="item">COVID-19 Research and Heroes</h4>
+            <p>Vaccine Trials and Inspiring stories about Research in our Backyard</p>
+            <img class="grid-item confrence-photos" src="images/welcome/Coronavirus.png" alt="seattle">
+            <br>
+            <div>
+                <button class="LMbutton"
+                    onclick="location.href='https://www.nwabr.org/member-center/thanksresearch';">LEARN
+                    MORE</button>
             </div>
         </div>
 
-        <div class="grid-item right-side outline">
-            <h3 class="color">Current Programs</h3>
-            <hr>
-            <p>
-                <img src="images/welcome/Building Bridges - 2022 IBCIACUCSecurity.jpg">
-                <span>I want you to my right </span>
-            </p>
-            <h4>IBC, SECURITY AND IACUC CONFERENCES: BUILDING BRIDGES</h4>
-            <p>February 22, 23 & 24, 2022 Building Bridges, Register Today.</p>
-            <div class="container3 grid-item">
-                <ul class="nav navmenu">
-                    <li><a style="font-size:24px" href="index.html">LEARN MORE</a></li>
-                </ul>
-            </div>
-            <hr>
-            <img src="images/welcome/Coronavirus.png">
-            <h4>COVID-19 RESEARCH AND HEROES</h4>
-            <p>Vaccine Trials and Inspiring stories about Research in our Backyard.</p>
-            <div class="container3 grid-item">
-                <ul class="nav navmenu">
-                    <li><a style="font-size:24px" href="index.html">LEARN MORE</a></li>
-                </ul>
-            </div>
-            <hr>
-            <img src="images/welcome/Medical Research_developmentnews.I.png">
-            <h4>JOIN OR INVITE RESEARCH AMBASSADORS</h4>
-            <p>A Homebase to Speak Science, A Service to Inspire Biomed Careers.</p>
-            <div class="container3 grid-item">
-                <ul class="nav navmenu">
-                    <li><a style="font-size:24px" href="index.html">LEARN MORE</a></li>
-                </ul>
-            </div>
-            <hr>
-            <img src="images/welcome/JoinUs.jfif">
-            <h4>SPEAK UP FOR RESEARCH EDUCATION FUND</h4>
-            <p>Passion to make a difference in biomedical research.</p>
-            <div class="container3 grid-item">
-                <ul class="nav navmenu">
-                    <li><a style="font-size:24px" href="index.html">LEARN MORE</a></li>
-                </ul>
+        <div class="grid-item woah3" style="padding-top: 6%">
+            <h4 class="item">Join or Invite Research Ambassadors</h4>
+            <p>A Homebase to Speak Science, A Service to Inspire Biomed Careers</p>
+            <img class="grid-item confrence-photos" src="images/events & programs/20180712_141250.jpg" alt="seattle">
+            <br>
+            <div>
+                <button class="LMbutton"
+                    onclick="location.href='https://www.nwabr.org/events-programs/research-ambassador-program';">LEARN
+                    MORE</button>
             </div>
         </div>
 
-        <div class="grid-item outline4">
-            <h3 class="color">#ThanksResearch</h3>
-            <hr>
-            <p>Donations to NWABR help us to promote the public's trust in ethically conducted biomedical research.
-                Specifically donations support:</p>
-            <ul>
-                <li>Confrences</li>
-                <li>K12 science outreach</li>
-                <li>Communications trainings</li>
-                <li>Public engagement opportunities</li>
-            </ul>
+        <div class="grid-item woah4" style="padding-top: 6%">
+            <h4 class="item">Speak up for Research Education Fund</h4>
+            <p>Passion to make a difference in biomedical research</p>
+            <img class="grid-item confrence-photos" src="images/welcome/Medical Research_developmentnews.I.png"
+                alt="seattle">
+            <br>
+            <div>
+                <button class="LMbutton"
+                    onclick="location.href='https://donatenow.networkforgood.org/nwabr?code=Speak%20Up%20For%20Research&reset=1';">LEARN
+                    MORE</button>
+            </div>
+        </div>
 
-            <div class="container3 grid-item">
-                <ul class="nav navmenu">
-                    <li><a href="index.html">DONATE</a></li>
-                </ul>
+
+        <!-- item title- conferences -->
+        <div class="grid-item liem">
+            <h2 class="color">The Team</h2>
+        </div>
+
+        <!-- items!- conferences -->
+        <div class="grid-item liem1">
+            <h4 class="item">Our Board</h4>
+            <h6 style="padding-bottom: 5%; font-size: 15px; text-align: center;"><i>
+                    Ken Gordon </i>
+            </h6>
+            <p>Email: executivedirector@nwabr.org</p>
+            <p>Phone: (206) 957-3337 </p>
+            <img class="grid-item confrence-photos" src="images/welcome/board/KG headshot.jpg" alt="portland">
+            <br>
+            <div>
+                <button class="LMbutton"
+                    onclick="location.href='https://www.nwabr.org/about/our-team/ken-gordon';">LEARN
+                    MORE</button>
+            </div>
+        </div>
+
+        <div class="grid-item liem2">
+            <h4 class="item">Mansi Kaushik</h4>
+            <h6 style="padding-bottom: 5%; font-size: 15px; text-align: center;"><i>
+                    CampBIOMed and Technology Manager </i>
+            </h6>
+            <p>Email: camp.mansi@nwabr.org</p>
+            <p>Twitter: N/A</p>
+            <img class="grid-item confrence-photos" src="images/welcome/board/Screenshot 2022-11-18 020741.png"
+                alt="seattle">
+            <br>
+            <div>
+                <button class="LMbutton"
+                    onclick="location.href='https://www.nwabr.org/about/our-team/mansi-kaushik';">LEARN
+                    MORE</button>
+            </div>
+        </div>
+
+        <div class="grid-item liem3">
+            <h4 class="item">Jennifer Wroblewski</h4>
+            <h6 style="padding-bottom: 5%; font-size: 15px; text-align: center;"><i>
+                    Public Engagement Manager </i>
+            </h6>
+            <p>Email: engagement@nwabr.org</p>
+            <p>Twitter: @biomeducator</p>
+            <img class="grid-item confrence-photos" src="images/welcome/board/IMG_9690.JPG" alt="irb">
+            <br>
+            <div>
+                <button class="LMbutton"
+                    onclick="location.href='https://www.nwabr.org/about/our-team/jennifer-wroblewski';">LEARN
+                    MORE</button>
             </div>
         </div>
     </div>
+
 
     <br>
     <div class="footer">
